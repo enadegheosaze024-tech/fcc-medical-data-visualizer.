@@ -26,8 +26,8 @@ Tools Used:
 4. NumPy for mathematical operations
 
 Final Visualizations
-Categorical Plot
-Correlation Heat Map
+1. Categorical Plot
+2. Correlation Heat Map
 ## Final Visualizations
 
 ### Categorical Plot
