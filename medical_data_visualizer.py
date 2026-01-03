@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # 2: Load the data
-df= pd.read_csv('C:\\Users\\PC\\FreeCodeCamp_DataAnalysis_Cert\\boilerplate-medical-data-visualizer\\medical_examination.csv')
+df= pd.read_csv('medical_examination.csv')
 
 # 3: Add the 'overweight' Column
 df['overweight'] = (df['weight'] /((df['height']/100)**2)>25).astype(int)
